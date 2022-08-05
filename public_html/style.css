@@ -1,0 +1,425 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 200vh;
+}
+
+
+.home-container{
+    position: relative;
+    width: 100%;
+    height: 655px;
+    left: 0px;
+    top: 0px;
+    background: url(images/jpeg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    
+   
+  
+}
+
+.top{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+.top h3{
+    margin: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.top #logosmall{
+    color: #ebeb5e;
+}
+
+.logo{
+    position: relative;
+   left: 496px;
+    top: 30px;
+    width: fit-content;
+    color: #ebeb5e;
+    
+}
+
+.logo h1{
+    
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 78px;
+    text-shadow: 2px 2px 3px #aaa5a5d0;
+    letter-spacing: 4px;  
+}
+
+.navigation{
+    position: relative;
+    top: 300px;
+    left: 299px;
+     width: 800px;
+     height: 24px;
+     color: #e1e1e1;
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 32px;
+     line-height: 44px;
+     text-align: center;
+ }
+
+ .navigation a{
+    text-decoration: none;
+    color: #e1e1e1;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+ }
+
+#hm{
+    color: #ebeb5e;
+}
+
+ .navigation a:hover{
+     color: #ebeb5e;
+ }
+
+.about-container{
+    position: relative;
+    height: 110vh;
+    width: 100%;
+    background-color: #222222;
+}
+
+
+.abt{
+    position: absolute;
+
+left: 15px;
+top: 20px;
+
+font-family: Montserrat;
+font-style: normal;
+     font-weight: 600;
+     font-size: 32px;
+line-height: 59px;
+color: #E1E1E1;
+}
+
+.box img{
+    position: relative;
+    left: 120px;
+    top: 50px;
+    width: 420px;
+height: 234px;
+filter: drop-shadow(0px 10px 4px #000000);
+}
+
+.box .caption{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 43px;
+line-height: 56px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+.box .subtext{
+position: relative;
+top: -40px;
+right: 10px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 41px;
+text-align: justify;
+
+color: #c9c7c7e3;
+}
+
+.box{
+    width: 50%;
+    height: 400px;
+}
+.content-abt{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    top: 168px;
+}
+
+.bottom-content-abt{
+    position: relative;
+    top: 200px;
+    width: 1081px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+
+.box-bot{
+    display: block;
+    width: 237px;
+    height: 170px;
+}
+
+.box-bot .num{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+text-align: center;
+color: #c9c7c7;
+margin-bottom: -20px;
+}
+
+.box-bot .d{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+color: #c9c7c7c2;
+}
+
+.services-container{
+    width: 100%;
+    height: 90vh;
+    background-color: #E1E1E1;
+}
+
+.qc{
+    width: 100%;
+    height: 431px;
+    display: flex;
+    justify-content: space-around;
+    background: #fcfcfc;
+}
+
+.box-q{
+    width: 50%;
+    height:431px;
+  text-align: center;
+}
+
+.box-q #head{
+position: relative;
+top: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+color: #000000;
+
+}
+
+.box-q #mid{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+
+color: #000000;
+}
+
+.box-q #au{
+    position: relative;
+top: -20px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+}
+
+.box-q img{
+    position: relative;
+    width: 553px;
+    height: 336px;
+    top: 50px;
+}
+
+.profile-container{
+    width: 100%;
+    height: 394px;
+    display: flex;
+    justify-content: space-around;
+    background: #222222;
+}
+
+.profile{
+    position: relative;
+    top: 70px;
+    width: 277px;
+    height: 295px;
+    display: block;
+
+   
+}
+
+.profile .pic{
+    position: relative;
+    left: 38px;
+    width: 191px;
+    height: 188px;
+    background-image: url(images/mine.jpg);
+    background-size: cover;
+    background-position-x: -48px;
+    border: 5px solid rgba(54, 54, 53, 0.78);
+    border-radius: 47%;
+    
+}
+
+.profile #ra{
+    position: relative;
+    left: 38px;
+    width: 191px;
+    height: 188px;
+    background-image: url(images/reymon.jpg);
+    background-size: cover;
+    
+    background-position-x: 15px;
+    border: 5px solid rgba(54, 54, 53, 0.78);
+    border-radius: 47%;
+}
+
+.profile #name{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-align: justify;
+color: #E1E1E1;
+}
+.profile #namer{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #E1E1E1;
+}
+
+.profile #work{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: justify;
+color: #E1E1E1;
+text-align: center;
+margin-top: -20px;
+}
+
+#bp{
+     position: relative;
+    bottom: 10px;
+    width: 277px;
+    height: 35px;
+ 
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.sc{
+   
+    width: 33px;
+    height: 32px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+#fb{
+    background-image: url(images/fb-logo.png);
+    background-size: cover;
+}
+
+#gm{
+    background-image: url(images/gm-logo.png);
+    background-size: cover;
+}
+
+#ig{
+    background-image: url(images/ig-logo.png);
+    background-size: cover;
+}
+
+#fbr{
+    background-image: url(images/fb-logo.png);
+    background-size: cover;
+}
+
+#gmr{
+    background-image: url(images/gm-logo.png);
+    background-size: cover;
+}
+
+#igr{
+    background-image: url(images/ig-logo.png);
+    background-size: cover;
+}
+
+
+.footer{
+padding-top: 20px;
+position: relative;
+
+width: 100%;
+height: 146px;
+background-color: #222222;
+
+}
+
+.footer p{
+font-family: Montserrat;
+font-style: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: -0.05em;
+color: #DEF2F1;
+}
+
+#back a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #DEF2F1;
+    letter-spacing: -0.05em;
+    text-decoration: underline;
+}
+
+
